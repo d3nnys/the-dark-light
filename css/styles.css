@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     font-family: 'Cardo', sans-serif;
     font-size: 19px;
-    color: #969AA0;
+    color: #FFFFFF;
     background-color: #FFFFFF;
     line-height: 1.5;
 }
@@ -40,6 +40,10 @@ h2 {
     font-size: 42px;
     line-height: 1.2;
     color: #1B3764;
+}
+
+section {
+    padding: 130px 0;
 }
 
 /* HEADER=========================== */
@@ -120,4 +124,116 @@ h2 {
 .header-button:focus,
 .header-button:hover {
     background-color: #eba902;
+}
+
+/* HERO=========================== */
+
+.hero-page {
+    padding: 100px 0;
+    background-color: #1B3764;
+}
+
+.hero-page .container {
+    display: flex;
+}
+
+.before-title-text {
+    position: relative;
+    font-size: 21px;
+    line-height: 1.71;
+    letter-spacing: 1.2px;
+    
+    margin: 0 0 15px 49px;
+    color: #FFFFFF;
+}
+
+.before-title-text::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 17px;
+    left: -0.31px;
+
+    color: #FFCA42;
+}
+
+.hero-title {
+    font-size: 64px;
+    line-height: 1.21;
+    letter-spacing: 1.3px;
+    
+    max-width: 512px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.hero-left-box {
+    margin-right: 102px;
+    padding: 147px 0;
+}
+
+.after-title-text {
+    max-width: 562px;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 1.58;
+
+    margin-bottom: 30px;
+    color: #B4C7E7;
+}
+
+.hero-button {
+    max-width: 223px;
+    padding: 18px 52px;
+    letter-spacing: 0.57px;
+
+    color: #1B3764;
+    background-color: #FFCA42;
+    border: 2px solid #FFCA42;
+
+    margin: 0 51px 40px 0;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: #eba902;
+}
+
+.hero-link {
+    line-height: 1.6;
+    letter-spacing: 0.38px;
+
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.hero-link:focus,
+.hero-link:hover {
+    color: #FFCA42;
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.item-title {
+    margin-bottom: 12px;
+}
+
+.item-text {
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 1.58;
+    color: #B4C7E7;
+}
+
+/* BOOK=========================== */
+
+.book-title {
+    font-size: 42px;
+    line-height: 1.2;
+    align-items: center;
 }
