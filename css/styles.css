@@ -321,6 +321,10 @@ section {
 
 /* AUTHOR=========================== */
 
+.author-page {
+    background-color: #F5F8FC;
+}
+
 .author-list {
     display: flex;
     flex-direction: row;
