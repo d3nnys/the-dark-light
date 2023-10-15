@@ -42,6 +42,10 @@ h2 {
     color: #1B3764;
 }
 
+h3 {
+    color: #1B3764;
+}
+
 section {
     padding: 130px 0;
 }
@@ -232,8 +236,82 @@ section {
 
 /* BOOK=========================== */
 
+.book-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .book-title {
     font-size: 42px;
     line-height: 1.2;
-    align-items: center;
+    margin-bottom: 100px;
 }
+
+.book-item {
+    display: flex;
+    flex-direction: row;
+    max-width: 630px;
+}
+
+.book-list {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.book-item-title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.32px;
+
+    margin-bottom: 7px;
+}
+
+.book-item-text {
+    max-width: 278px;
+    margin: 7px 0;
+    color: #969AA0;
+}
+
+.book-item-subtitle {
+    font-size: 24px;
+    line-height: 1.2;
+
+    margin-bottom: 30px;
+    margin-left: 26px;
+    color: #1B3764;
+}
+
+.book-right-box {
+    padding: 30px;
+}
+
+.book-item-button {
+    padding: 19px 52px;
+    background-color: #ffffff;
+
+    border: 2px solid #FFCA42
+}
+
+.book-item-button:focus,
+.book-item-button:hover {
+    background-color: lightgrey;
+}
+
+.book-item-subtext {
+    font-family: 'Inter';
+    font-size: 21px;
+    line-height: 1.57;
+
+    color: #FFCA42;
+}
+
+/* AUTHOR=========================== */
+
+.author-list {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
