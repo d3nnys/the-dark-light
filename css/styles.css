@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     font-family: 'Cardo', sans-serif;
     font-size: 19px;
+    font-weight: 400;
     color: #FFFFFF;
     background-color: #FFFFFF;
     line-height: 1.5;
@@ -166,6 +167,7 @@ section {
     font-size: 64px;
     line-height: 1.21;
     letter-spacing: 1.3px;
+    font-weight: 400;
     
     max-width: 512px;
     margin-bottom: 24px;
@@ -182,6 +184,7 @@ section {
     font-family: 'Inter';
     font-size: 18px;
     line-height: 1.58;
+    font-weight: 400;
 
     margin-bottom: 30px;
     color: #B4C7E7;
@@ -191,6 +194,7 @@ section {
     max-width: 223px;
     padding: 18px 52px;
     letter-spacing: 0.57px;
+    font-weight: 400;
 
     color: #1B3764;
     background-color: #FFCA42;
@@ -207,6 +211,7 @@ section {
 .hero-link {
     line-height: 1.6;
     letter-spacing: 0.38px;
+    font-weight: 400;
 
     border-bottom: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -224,12 +229,14 @@ section {
 }
 
 .item-title {
+    font-weight: 400;
     margin-bottom: 12px;
 }
 
 .item-text {
     font-family: 'Inter';
     font-size: 17px;
+    font-weight: 400;
     line-height: 1.58;
     color: #B4C7E7;
 }
@@ -245,6 +252,7 @@ section {
 .book-title {
     font-size: 42px;
     line-height: 1.2;
+    font-weight: 400;
     margin-bottom: 100px;
 }
 
@@ -262,6 +270,7 @@ section {
 
 .book-item-title {
     font-size: 32px;
+    font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.32px;
 
@@ -270,6 +279,7 @@ section {
 
 .book-item-text {
     max-width: 278px;
+    font-weight: 400;
     margin: 7px 0;
     color: #969AA0;
 }
@@ -277,6 +287,7 @@ section {
 .book-item-subtitle {
     font-size: 24px;
     line-height: 1.2;
+    font-weight: 400;
 
     margin-bottom: 30px;
     margin-left: 26px;
@@ -303,6 +314,7 @@ section {
     font-family: 'Inter';
     font-size: 21px;
     line-height: 1.57;
+    font-weight: 400;
 
     color: #FFCA42;
 }
@@ -315,3 +327,88 @@ section {
     gap: 150px;
 }
 
+.author-item-title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.2;
+    
+    margin-bottom: 59px;
+}
+
+.author-item-text {
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 1.8;
+
+    margin-bottom: 34px;
+    color: #969AA0;
+}
+
+.item-sublist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 46px;
+
+    margin-bottom: 70px;
+}
+
+.sublist-item {
+    max-width: 181px;
+    padding: 0 10px;
+}
+
+.sublist-title {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 1.42;
+}
+
+.sublist-text {
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 1.27;
+
+    color: #969AA0;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 484px;
+    padding: 15px 20px;
+    background-color: #1B3764;
+}
+
+.contact-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    
+    margin: 0 0 10px 0;
+    color: #FFCA42;
+}
+
+.contact-list {
+    padding: 15px 0;
+    margin-left: 40px;
+}
+
+.contact-text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.58;
+
+    color: #B4C7E7;
+}
+
+.contact-link {
+    margin-left: 10px;
+    color: #B4C7E7;
+}
+
+.right {
+    padding: 60px 0 0 30px;
+}
