@@ -34,6 +34,7 @@ a {
 h1,
 h2,
 h3,
+h4,
 p,
 ul {
 	margin: 0;
@@ -534,6 +535,7 @@ section {
 /* !LEARN====================================================== */
 
 .learn-page {
+	padding: 136px 0 140px 0;
 }
 .container {
 }
@@ -611,3 +613,125 @@ section {
 }
 
 /* !KNOWLEDGE====================================================== */
+
+.knowledge-section {
+	padding: 116px 0 130px;
+	background-color: #f4f8ff;
+}
+.container {
+}
+.knowledge-title {
+	text-align: center;
+	font-size: 42px;
+	line-height: 1.2;
+	text-transform: capitalize;
+	color: #1b3764;
+
+	margin-bottom: 96px;
+}
+
+.knowledge-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 40px;
+	column-gap: 30px;
+
+	margin-bottom: 70px;
+}
+
+.knowledge-list-item {
+	padding: 42px 0 44px 40px;
+	width: calc((100% - 30px) / 2);
+	background-color: #ffffff;
+}
+
+.knowledge-list-item:first-child {
+	padding-right: 62px;
+}
+.knowledge-list-item:nth-child(2) {
+	padding-right: 89px;
+}
+.knowledge-list-item:nth-child(3) {
+	padding-right: 65px;
+}
+.knowledge-list-item:last-child {
+	padding-right: 59px;
+}
+
+.knowledge-list-item-subtitle {
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 21px;
+}
+
+.knowledge-list-item-text {
+	font-family: Inter;
+	line-height: 1.7;
+	color: #969aa0;
+	margin-bottom: 10px;
+}
+
+.knowledge-list-item-sublist {
+	display: flex;
+	gap: 71px;
+}
+
+.knowledge-list-item-sublist-subitem {
+	display: flex;
+	align-items: center;
+}
+.knowledge-sublist-subitem-title {
+	font-size: 22px;
+	line-height: 1.4;
+	color: #1b3764;
+	margin-right: 10px;
+}
+
+.this-title {
+	margin-left: 26px;
+}
+
+.knowledge-sublist-subitem-text {
+	font-family: Inter;
+	font-size: 17px;
+	line-height: 1.59;
+	color: #969aa0;
+}
+
+.knowledge-btn {
+	text-align: center;
+	font-family: Cardo;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.57px;
+	text-transform: capitalize;
+
+	display: block;
+	margin: 0 auto 34px;
+	padding: 24px 92px 23px;
+	color: #1b3764;
+	border: 2px solid #ffca42;
+	background: #ffca42;
+}
+
+.knowledge-text {
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.58;
+	color: #969aa0;
+}
+
+.knowledge-link {
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.58;
+	letter-spacing: 0.19px;
+	color: #1b3764;
+	margin-right: 2px;
+}
