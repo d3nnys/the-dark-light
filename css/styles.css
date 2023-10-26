@@ -530,3 +530,84 @@ section {
 }
 .copy-img {
 }
+
+/* !LEARN====================================================== */
+
+.learn-page {
+}
+.container {
+}
+.learn-title {
+	font-family: Cardo;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: capitalize;
+	text-align: center;
+
+	color: #1b3764;
+	margin-bottom: 116px;
+}
+.learn-box {
+	display: flex;
+	align-items: center;
+}
+.learn-box-left-side {
+	display: flex;
+	align-items: center;
+	padding: 30px 30px 48px 0;
+}
+.learn-box-right-side {
+}
+.learn-list {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+.learn-list-item {
+	background-color: #f4f8ff;
+	max-width: 303px;
+}
+
+.learn-list-item:nth-child(1) {
+	padding: 30px 44px 61px 30px;
+}
+.learn-list-item:nth-child(2) {
+	padding: 30px 37px 27px 30px;
+}
+.learn-list-item:nth-child(3) {
+	padding: 30px 57px 27px 30px;
+}
+.learn-list-item:nth-child(4) {
+	padding: 30px 50px 27px 30px;
+}
+
+.learn-list-item-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 50px;
+	height: 50px;
+	background-color: #ffca42;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+.learn-list-item-subtitle {
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 1.25;
+
+	color: #1b3764;
+}
+.learn-list-item-text {
+	font-family: Cardo;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.4;
+
+	color: #1b3764;
+}
+
+/* !KNOWLEDGE====================================================== */
