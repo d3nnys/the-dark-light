@@ -8,6 +8,7 @@ body {
 	min-height: 100vh;
 	font-family: "Cardo", sans-serif;
 	font-size: 19px;
+	font-style: normal;
 	font-weight: 400;
 	color: #ffffff;
 	background-color: #ffffff;
@@ -488,4 +489,44 @@ section {
 .trusted-list-item-text {
 	font-family: Inter;
 	color: #969aa0;
+}
+
+/* !COPY====================================================== */
+
+.copy-page {
+	background-color: #1b3764;
+	padding: 70px 0;
+}
+
+.copy-page .container {
+	display: flex;
+	align-items: center;
+	gap: 130px;
+}
+
+.copy-title {
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: capitalize;
+	color: #fff;
+	margin-bottom: 54px;
+}
+
+.copy-text {
+	color: #b4c7e7;
+	margin-bottom: 27px;
+}
+
+.copy-btn {
+	letter-spacing: 0.38px;
+	max-width: 220px;
+	height: 66px;
+	padding: 19px 52px 18px;
+	color: #fff;
+	background-color: #1b3764;
+
+	border: 2px solid #ffca42;
+}
+.copy-img {
 }
