@@ -228,7 +228,7 @@ section {
 	letter-spacing: 0.38px;
 	font-weight: 400;
 
-	border-bottom: 1px solid #ffffff;
+	text-decoration: underline;
 	color: #ffffff;
 }
 
@@ -1007,3 +1007,153 @@ section {
 }
 
 /* !FOOTER====================================================== */
+
+.footer-page {
+	padding: 92px 0 24px;
+	background-color: #1b3764;
+}
+
+.footer-page .container {
+	/* display: flex; */
+}
+
+.footer-list {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 90px;
+}
+
+.footer-list-item-title {
+}
+
+.footer-list-item {
+	padding-bottom: 9px;
+	padding-left: 40px;
+}
+
+.footer-list-item-link-left {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.footer-sublist {
+	display: flex;
+	gap: 10px;
+}
+
+.footer-sublist-subitem {
+}
+
+.footer-sublist-subitem-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 55px;
+	height: 55px;
+	border: 1px solid #ffca42;
+}
+
+.footer-sublist-subitem-icon {
+	fill: #ffffff;
+}
+
+.footer-list-item-title {
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 400;
+	letter-spacing: 0.384px;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+.footer-list-item-link {
+	display: block;
+	margin-bottom: 9px;
+
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.7;
+	letter-spacing: 0.18px;
+	color: #b4c7e7;
+}
+
+.footer-list-item-contacts {
+}
+.footer-list-item-contacts-sublist {
+}
+.footer-list-item-contacts-sublist-subitem:not(:last-child) {
+	margin-bottom: 28px;
+}
+.footer-list-item-contacts-sublist-subitem {
+	display: flex;
+}
+
+.footer-list-item-contacts-sublist-subitem-link:nth-child(2) {
+	width: 234px;
+}
+
+.contact-text-first {
+	margin-right: 28px;
+}
+
+.contact-text-second {
+	margin-right: 59px;
+}
+
+.contact-text-third {
+	margin-right: 41px;
+}
+
+.contact-title {
+	margin-bottom: 27px;
+}
+
+.footer-list-item-contacts-sublist-subitem-text {
+	font-family: Cardo;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.36px;
+	color: #fff;
+}
+
+.footer-list-item-contacts-sublist-subitem-link {
+	font-family: Inter;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.588;
+	color: #b4c7e7;
+}
+
+.footer-bottom-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2px;
+}
+
+.footer-text {
+	text-align: center;
+	font-family: Inter;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.17px;
+	color: #b4c7e7;
+}
+
+.footer-link {
+	text-align: center;
+	font-family: Inter;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.17px;
+	color: #fff;
+}
