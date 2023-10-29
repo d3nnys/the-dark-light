@@ -35,5 +35,8 @@
 <path fill="#ffca42" style="fill: var(--color1, #ffca42)" d="M54.564 31.18c8.61 0 15.59-6.98 15.59-15.59s-6.98-15.59-15.59-15.59c-8.61 0-15.59 6.98-15.59 15.59s6.98 15.59 15.59 15.59z"></path>
 <path fill="#ffca42" style="fill: var(--color1, #ffca42)" d="M15.59 31.18c8.61 0 15.59-6.98 15.59-15.59s-6.98-15.59-15.59-15.59c-8.61 0-15.59 6.98-15.59 15.59s6.98 15.59 15.59 15.59z"></path>
 </symbol>
+<symbol id="icon-dot" viewBox="0 0 32 32">
+<path fill="none" stroke="#ffca42" style="stroke: var(--color1, #ffca42)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="12" d="M16 8c4.418 0 8 3.582 8 8s-3.582 8-8 8-8-3.582-8-8c0-4.418 3.582-8 8-8z"></path>
+</symbol>
   </defs>
 </svg>
