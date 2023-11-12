@@ -178,20 +178,19 @@ section {
 }
 
 .hero-title-text {
-	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 14px;
 	font-size: 21px;
 	line-height: 1.71;
 	letter-spacing: 1.2px;
 
 	color: #ffffff;
-	margin-left: 49px;
 }
 
 .hero-title-text::before {
-	position: absolute;
 	content: "";
-	top: 50%;
-	left: -49px;
+	display: block;
 	width: 35px;
 	height: 2px;
 	background-color: #ffca42;
@@ -266,12 +265,11 @@ section {
 	gap: 60px;
 }
 
-.hero-item {
-	position: relative;
-	margin-left: 25px;
-}
-
 .item-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
 	font-size: 24px;
 	line-height: 1.2;
 	letter-spacing: 0.48px;
@@ -282,10 +280,8 @@ section {
 }
 
 .item-title::before {
-	position: absolute;
+	display: block;
 	content: "";
-	top: 6px;
-	left: -25px;
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
@@ -298,6 +294,7 @@ section {
 	font-weight: 400;
 	line-height: 1.58;
 	color: #b4c7e7;
+	margin-left: 26px;
 }
 
 /* !BOOK====================================================== */
@@ -309,20 +306,22 @@ section {
 }
 
 .book-title {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
 	font-size: 42px;
 	line-height: 1.2;
 	font-weight: 400;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .book-title:after {
-	position: absolute;
+	display: block;
 	content: "";
-	left: 42.5%;
-	bottom: -25px;
 	width: 50px;
 	height: 3px;
+
+	margin-left: 147px;
 	background-color: #ffca42;
 }
 
@@ -357,21 +356,20 @@ section {
 }
 
 .book-item-subtitle {
-	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 	font-size: 24px;
 	line-height: 1.2;
 	font-weight: 400;
 
 	margin-bottom: 27px;
-	margin-left: 26px;
 	color: #1b3764;
 }
 
 .book-item-subtitle::before {
-	position: absolute;
+	display: block;
 	content: "";
-	top: 6px;
-	left: -26px;
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
@@ -413,10 +411,9 @@ section {
 	background-color: #f5f8fc;
 }
 
-.author-list {
+.author-page .container {
 	display: flex;
 	align-items: end;
-	flex-direction: row;
 	gap: 150px;
 }
 
@@ -429,7 +426,6 @@ section {
 
 .author-img {
 	position: absolute;
-	content: "";
 	top: -40px;
 	left: -40px;
 	width: 525px;
@@ -446,19 +442,19 @@ section {
 }
 
 .author-item-title {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
 	font-size: 42px;
 	font-weight: 400;
 	line-height: 1.2;
 
-	margin-bottom: 59px;
+	margin-bottom: 33px;
 }
 
 .author-item-title:after {
-	position: absolute;
+	display: block;
 	content: "";
-	left: 0;
-	bottom: -25px;
 	width: 50px;
 	height: 3px;
 	background-color: #ffca42;
@@ -550,14 +546,11 @@ section {
 
 /* !TRUSTED====================================================== */
 
-.trusted-page {
-}
-
-.container {
-}
-
 .trusted-title {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+
 	text-align: center;
 	font-size: 42px;
 	font-weight: 400;
@@ -568,12 +561,12 @@ section {
 }
 
 .trusted-title::after {
-	position: absolute;
+	display: block;
 	content: "";
-	left: 48%;
-	bottom: -26px;
 	width: 50px;
 	height: 3px;
+
+	margin-left: 610px;
 	background: #ffca42;
 }
 
@@ -641,20 +634,21 @@ section {
 }
 
 .copy-title {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 1.2;
 	text-transform: capitalize;
 	color: #fff;
-	margin-bottom: 54px;
+	margin-bottom: 27px;
 }
 
 .copy-title::after {
-	position: absolute;
+	display: block;
 	content: "";
-	left: 0;
-	bottom: -27px;
 	width: 50px;
 	height: 3px;
 	background: #ffca42;
@@ -691,8 +685,7 @@ section {
 .learn-page {
 	padding: 136px 0 140px 0;
 }
-.container {
-}
+
 .learn-title {
 	position: relative;
 	font-family: Cardo;
@@ -878,7 +871,10 @@ section {
 	align-items: center;
 }
 .knowledge-sublist-subitem-title {
-	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
 	font-size: 22px;
 	line-height: 1.4;
 	color: #1b3764;
@@ -886,18 +882,13 @@ section {
 }
 
 .knowledge-sublist-subitem-title::before {
-	position: absolute;
+	display: block;
 	content: "";
-	top: 6px;
-	left: -26px;
 	width: 16px;
 	height: 16px;
 	border-radius: 50%;
-	background-color: #ffca42;
-}
 
-.this-title {
-	margin-left: 26px;
+	background-color: #ffca42;
 }
 
 .knowledge-sublist-subitem-text {
@@ -956,8 +947,6 @@ section {
 .readers-section {
 	padding: 164px 0 150px;
 }
-.container {
-}
 
 .readers-main-box {
 	display: flex;
@@ -970,7 +959,10 @@ section {
 }
 
 .readers-left-box-title {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+
 	font-size: 42px;
 	line-height: 1.2;
 	text-transform: capitalize;
@@ -978,14 +970,12 @@ section {
 
 	color: #1b3764;
 	max-width: 329px;
-	margin-bottom: 59px;
+	margin-bottom: 33px;
 }
 
 .readers-left-box-title:after {
-	position: absolute;
+	display: block;
 	content: "";
-	left: 0;
-	bottom: -26px;
 	width: 50px;
 	height: 3px;
 	background-color: #ffca42;
@@ -1143,8 +1133,6 @@ section {
 	justify-content: space-between;
 }
 
-.resources-list-item-sublist-subitem {
-}
 .resources-list-item-sublist-subitem-link {
 	line-height: 1.2;
 	letter-spacing: 0.38px;
@@ -1164,7 +1152,6 @@ section {
 	font-family: Inter;
 	font-size: 16px;
 	line-height: 1.59;
-	box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.07);
 	color: #1b3764;
 }
 
